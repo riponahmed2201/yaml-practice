@@ -1,0 +1,22 @@
+# This is comment
+
+#collection - 1. lists 2. arrays 3. Dictionaries/map
+
+#Lists
+players:
+  - ripon
+  - samun
+  - siful
+  - jubayer
+  - nur
+  - mahir
+
+#Array
+numbers: [1,2,3,4,5]
+
+#Dictionaries
+persons:
+  name: Md. Ripon Mia
+  profession: Software Engineer
+  age: 27
+  country: Bangladesh

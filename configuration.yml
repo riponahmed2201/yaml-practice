@@ -1,0 +1,37 @@
+#Application Configuration
+
+#General Setting
+app_name: "Laravel App"
+version: 1.0
+debug_mode: true
+
+#Server Setting
+server:
+  host: "localhost"
+  port: 8080
+  ssl_enable: true
+  ssh_key: "/path/public_html/var/www/html"
+
+#Database Setting
+database:
+  type: "postgres"
+  host: "db.postgres.com"
+  port: 5432
+  dbname: "testdbname"
+  username: "postgres"
+  password: "secret"
+
+#Email Setting
+email:
+  smtp_servername: "smtp.example.com"
+  smtp_port: 587
+  username: "testusername"
+  password: "password"
+  sender_email: "riponahmed2201@gmail"
+
+#Logging Setting
+logging:
+  level: "info"
+  lgfile: "/var/www/html"
+  max_file_size: 10MB
+  max_backup_files: 4

@@ -1,0 +1,19 @@
+#Indentation
+
+tuitorial:
+  - yaml:
+    name: 'yml tuirial'
+    type: 'youtube'
+    video: 8
+
+name: 'ripon'
+age: 27
+height: 5.5
+
+#Sequence
+Programming:
+  - JavaScript
+  - Golang
+  - PHP
+  - Python
+  - Ruby

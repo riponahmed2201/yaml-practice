@@ -1,0 +1,19 @@
+nameone: YAML & XML
+nametwo: "YAML & XML" 
+
+#Folding Strins
+#Only line allowed
+messageone: "nksfffffffffffffffffffffffffffff" 
+
+#Multiple Line
+messagetwo: > 
+  This is first line
+  This second line
+  This third line
+
+messagethree: |
+  This is leo
+  This is neymar
+  Third one is chistiano
+
+messagefour: >+

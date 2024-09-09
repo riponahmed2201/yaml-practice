@@ -1,0 +1,22 @@
+#Scallars
+
+name: "Md. Ripon Mia"
+anothername: "Mahir"
+
+age: 25
+height: 5.5
+
+educated: true
+lier: false
+isnull: null
+
+
+#Tags
+age: !!int 27
+height: !!float 5.5
+
+date: !!timestamp '2024-05-01T12:00:00'
+
+person: !Person
+  name: jhon
+  age: 27

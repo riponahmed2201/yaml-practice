@@ -1,0 +1,24 @@
+#Structures
+
+# 1. Nested Collections
+# 2. Anchors & Aliases
+# 3. Flows
+
+#Nested Collections
+players:
+  - name: ripon
+    age:27
+  - name: mahir
+    age: 24
+
+#Anchors & Aliases
+defaults: &defaults
+  username: ripon
+  password: secrect
+
+
+user1: *defaults
+user2: *defaults
+
+#Flows
+players: {name: ripon, age: 27, city: Dhaka}
